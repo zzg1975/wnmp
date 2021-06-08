@@ -3,7 +3,9 @@
 
 ## 软件简介
 
-***本软件包专门为ThinkPHP 3.2.3和Moodle而写的WNMP运行架构***
+***本软件包专门为ThinkPHP 3.2.3和Moodle而造的WNMP运行架构***
+
+***ThinkPHP 3.2.3只支持到PHP 7.3，若要用更高版本的PHP，请使用ThinkPHP 6***
 
 **作者：曾棕根 老师**
 
@@ -146,5 +148,5 @@ server {
 
 ### Q8：如何开启PHP的Opcache模块？
 
-C:\wnmp\php\php.ini的第1884行中，【opcache.enable = 0】默认将Opcache模块关闭了，主要为了修改了php语句后，可以立即看到运行效果，便于学生调试。在生产环境中，应该开户Opcache模块，以提高PHP网页的运行速度，设置【opcache.enable = 1】后，运行一次C:\wnmp\stopwnmp.bat后，再运行C:\wnmp\startwnmp.bat立即生效。
+C:\wnmp\php\php.ini的第1884行中，【opcache.enable = 0】默认将Opcache模块关闭了，主要为了修改了php语句后，可以立即看到运行效果，便于学生调试。在生产环境中，应该开启Opcache模块，以提高PHP网页的运行速度，设置【opcache.enable = 1】后，运行一次C:\wnmp\stopwnmp.bat后，再运行C:\wnmp\startwnmp.bat立即生效。
 
