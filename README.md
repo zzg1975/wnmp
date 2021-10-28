@@ -7,9 +7,11 @@
 
 ***ThinkPHP 3.2.3只支持到PHP 7.3，若要用更高版本的PHP，请使用ThinkPHP 6***
 
+***本安装包也适合Moodle和RISE（CodeIgniter 3架构）运行***
+
 **作者：曾棕根 老师**
 
-- 2021-10-24  于宁波市北仑区
+- 2021-10-29  于宁波市北仑区
 - 邮箱：461932968@qq.com
 - 手机：18757462581
 - Moodle亚洲开发群：QQ群号263569269
@@ -29,7 +31,7 @@
 ## 组件版本
 
 - 【Nginx版本】1.20.1 stable
-- 【PHP版本】php-7.3.31-nts-Win32-VC15-x64
+- 【PHP版本】php-7.3.32-nts-Win32-VC15-x64
 - 【MariaDB版本】10.4.19 stable【注意：10.5.10版本不能在Windows 7上运行，在 Windows 10上能运行，故没有使用这个版本】
 - 【ThinkPHP版本】3.2.3
 
